@@ -1,0 +1,36 @@
+.experiencia {
+    padding: 2%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.experiencia__secao__titulo{
+    text-align: center;
+    color: #f05a5a;
+    display: center;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.experiencia__img {  
+    background-repeat: no-repeat;
+    height: 275px;
+    margin: 0 auto;
+    width: 600px; 
+    background-size: cover;
+    background-position: center;
+    background-image: url('/img/decodificador.jpg');
+}
+
+.experiencia__info{
+    display: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-top: 2%;
+}
+
+.experiencia__titulo {
+    color: #595959;
+}

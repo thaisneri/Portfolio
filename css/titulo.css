@@ -1,0 +1,46 @@
+.titulo__div {
+    padding: 2%;
+    background-color: #faefef;
+}
+
+.imagem_principal{
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    height: 300px;
+    margin: 0 auto;
+    width: 300px; 
+    background-image: url('/img/thais.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo__bio {
+    text-align: center;
+    color: #f05a5a;
+    display: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+
+.titulo__subsecao {
+    display: center;
+    flex-direction: column;
+    text-align: center;
+    color: #595959;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+
+.titulo__redes {
+    color: #595959;
+    font-size: 1.3rem;    
+    display: flex;
+    justify-content: center;
+}
+
+.titulo__redes__item {
+    margin-right: 3%;
+}

@@ -1,0 +1,22 @@
+.sobre__container {
+    padding: 2%;
+    text-align: center;
+    background-color: #F5F5F5;;
+}
+
+.sobre__titulo {
+    color: #f05a5a;
+    font-size: 1.5rem;
+    padding: 1rem;
+    
+}
+
+.sobre__paragrafo {
+    color: #595959;
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+    margin-right: 4rem;
+    
+    
+}
+

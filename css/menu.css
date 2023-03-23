@@ -1,0 +1,16 @@
+.menu__lista {
+    background: #f05a5a;
+    display: flex;
+    padding: 1.5%;
+}
+
+
+.menu__lista__item {
+  list-style: none;
+  display: flex;
+  margin-right: 3%;
+}
+
+.menu__nome {
+  margin-right: 30%;
+}

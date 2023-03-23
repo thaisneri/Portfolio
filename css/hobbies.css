@@ -1,0 +1,76 @@
+.hobbies {
+    padding: 2%;
+    text-align: center;
+    background-color: #F5F5F5;;
+}
+
+.hobbies__linha{
+    display: inline-grid;
+    grid-template-columns: 320px 320px 320px 320px;
+}
+
+.hobbies__titulo {
+    text-align: center;
+    color: #f05a5a;
+    display: center;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.hobbies__caixa {
+    display: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.hobbies__nome {
+    padding: 1rem;
+    color: #595959;
+}
+
+.img__musica{  
+    border-radius: 20%;  
+    background-image: url('/img/musica.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin: 0 auto;
+    width: 150px; 
+}
+
+.img__cinema {
+    border-radius: 20%;  
+    background-image: url('/img/cinema.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin: 0 auto;
+    width: 150px; 
+}
+
+.img__malhar {
+    border-radius: 20%;  
+    background-image: url('/img/malhar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin: 0 auto;
+    width: 150px; 
+}
+
+.img__ler {
+    border-radius: 20%;  
+    background-image: url('/img/ler.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin: 0 auto;
+    width: 150px; 
+}
