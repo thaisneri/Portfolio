@@ -4,9 +4,41 @@
     background-color: rgb(255, 255, 255);
 }
 
-.academico__cursos {
+/*.academico__cursos {
     display: inline-grid;
     grid-template-columns: 450px 450px 450px;
+} */
+
+.academico__cursos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 0px) {
+    .academico__cursos {
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) {
+    .academico__cursos {
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1024px) {
+    .academico__cursos {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 
 .academico__titulo {

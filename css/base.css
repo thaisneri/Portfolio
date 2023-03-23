@@ -2,3 +2,6 @@ body {
     font-family: 'Sono', sans-serif;
 }
 
+.conteudo {
+    overflow-x: hidden;
+}

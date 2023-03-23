@@ -4,9 +4,34 @@
     background-color: #faefef;;
 }
 
-.skills__linha {
+/*.skills__linha {
     display: inline-grid;
     grid-template-columns: 320px 320px 320px 320px;
+}
+*/
+
+.skills__linha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 0px) {
+    .skills__linha {
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) {
+    .skills__linha {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
 
 .skills__titulo  {
