@@ -20,7 +20,7 @@
     width: 600px; 
     background-size: cover;
     background-position: center;
-    background-image: url('/img/decodificador.jpg');
+    background-image: url('../img/decodificador.jpg');
 }
 
 .experiencia__info{

@@ -9,7 +9,7 @@
     height: 300px;
     margin: 0 auto;
     width: 300px; 
-    background-image: url('/img/thais.jpg.jpg');
+    background-image: url('../img/thais.jpg.jpg');
     background-size: cover;
     background-position: center;
 }
