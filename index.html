@@ -172,13 +172,15 @@
                 <h2 class="formcontato__titulo" id="contato">Contato</h2>
                 <h3 class="formcontato__subtexto">Quer entrar em contato comigo?</h3>
                 <h3 class="formcontato__subtexto">Preencha o formulário e entrarei em contato.</h3>
-                <form class="formcontato__form">
-                    <input class="formcontato__input" type="text" id="nome" placeholder="Nome">
-                    <input class="formcontato__input" type="email" id="email" placeholder="Email">
-                    <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto">
-                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Descreva o motivo do seu contato."></textarea>
-                    <button class="formcontato__botao">Enviar mensagem</button>
+
+                <form class="formcontato__form" name="form">
+                    <input class="formcontato__input" type="text" name="nome" id="nome" placeholder="Nome" maxlength="50" title="O nome deve conter no máximo 50 caracteres." required>
+                    <input class="formcontato__input" type="email" id="email" placeholder="Email" title="O e-mail deve conter caractere especial @ seguido por um domínio ou provedor seguido por um ponto (.)" required>
+                    <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto" maxlength="50" required>
+                    <textarea class="formcontato__textarea" type="text" name="mensagem" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Descreva o motivo do seu contato." maxlength="300" title="A mensagem deve conter no máximo 300 caracteres" required></textarea>
+                    <button type="reset" class="formcontato__botao" onClick="verifica()">Enviar mensagem</button>
                 </form>
+
             </div>
         </div>
     </section>
@@ -192,4 +194,5 @@
     </div>
 </body>
 </main>
+<script src="form.js"></script>
 </html>

@@ -35,4 +35,16 @@
     color: #595959;
 }
 
+@media (max-width: 414px) {
+    .experiencia__img {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    object-fit: scale-down;
+    margin-bottom: 6%;
+
+    }
+  }
   
